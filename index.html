@@ -66,6 +66,9 @@ return lottie;
     var anim;
 
     anim = lottie.loadAnimation(params);
+    anim.addEventListener('complete', function() {
+        setTimeout(() => {  window.location.href = "https://www.ieap.uni-kiel.de/et/people/forstner/" }, 1000);
+    })
 
 </script>
 </body>
