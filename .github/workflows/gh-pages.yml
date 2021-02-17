@@ -24,7 +24,7 @@ jobs:
         run: pip3 install --upgrade setuptools && pip3 install academic
           
       - name: Import BibTeX
-        run: academic import --overwrite --normalize --bibtex publications.bib
+        run: python3 -m academic import --overwrite --normalize --bibtex publications.bib
 
       - name: Build
         run: hugo --gc --minify -b https://www.ieap.uni-kiel.de/et/people/forstner
