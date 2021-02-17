@@ -20,8 +20,11 @@ jobs:
           hugo-version: '0.64.0'
           extended: true
       
+      - name: Install Academic Python tools
+        run: pip3 install --upgrade setuptools && pip3 install --user academic
+          
       - name: Import BibTeX
-        run: pip3 install --upgrade setuptools && pip3 install academic && academic import --overwrite --normalize --bibtex publications.bib
+        run: ~/.local/bin/academic import --overwrite --normalize --bibtex publications.bib
 
       - name: Build
         run: hugo --gc --minify -b https://www.ieap.uni-kiel.de/et/people/forstner
