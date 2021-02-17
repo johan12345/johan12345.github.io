@@ -27,7 +27,7 @@ jobs:
         run: ~/.local/bin/academic import --overwrite --normalize --bibtex publications.bib
 
       - name: Build
-        run: hugo --gc --minify -b https://www.ieap.uni-kiel.de/et/people/forstner
+        run: hugo --gc --minify -b https://johan.vonforst.net
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
