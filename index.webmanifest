@@ -2,14 +2,14 @@
   "name": "Johan von Forstner",
   "short_name": "Johan von Forstner",
   "lang": "en-us",
-  "theme_color": "#f29400",
-  "background_color": "#f29400",
+  "theme_color": "#387ea5",
+  "background_color": "#387ea5",
   "icons": [{
-    "src": "/images/icon_hu35bfe483c62c6a328c7f9f2f4c8e999a_13969_192x192_fill_lanczos_center_2.png",
+    "src": "/images/icon_huf24989f2370937ebe8401cc817fbfa66_7482_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/images/icon_hu35bfe483c62c6a328c7f9f2f4c8e999a_13969_512x512_fill_lanczos_center_2.png",
+    "src": "/images/icon_huf24989f2370937ebe8401cc817fbfa66_7482_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],
