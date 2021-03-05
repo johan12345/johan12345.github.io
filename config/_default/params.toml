@@ -81,19 +81,19 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "forstner@physik.uni-kiel.de"
+email = "johan@vonforst.net"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Leibnizstr. 11", city = "Kiel", region = "", postcode = "24118", country = "Germany", country_code = "DE"}
+# address = {street = "Leibnizstr. 11", city = "Kiel", region = "", postcode = "24118", country = "Germany", country_code = "DE"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "54.347069", longitude = "10.111746"}
+# coordinates = {latitude = "54.347069", longitude = "10.111746"}
 
 # Directions for visitors to locate you.
-directions = "Room LS11/406"
+# directions = "Room LS11/406"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -256,7 +256,7 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  engine = 0
   api_key = ""
   zoom = 17
 

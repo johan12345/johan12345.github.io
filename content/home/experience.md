@@ -18,12 +18,21 @@ date_format = "2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Software Developer"
+  company = "Paradox Cat GmbH"
+  company_url = "https://paradoxcat.com/en/"
+  location = "Munich"
+  date_start = "2021-03-01"
+  date_end = ""
+  description = """"""
+
+[[experience]]
   title = "Postgraduate researcher, PhD student"
   company = "University of Kiel, Extraterrestrial Physics Department"
   company_url = "https://www.physik.uni-kiel.de/de/institute/ieap/et/"
   location = "Kiel"
   date_start = "2018-10-01"
-  date_end = ""
+  date_end = "2021-02-28"
   description = """"""
 
 [[experience]]
@@ -41,7 +50,7 @@ date_format = "2006"
   company_url = "https://rami.io"
   location = "Heidelberg"
   date_start = "2014-08-01"
-  date_end = ""
+  date_end = "2021-02-28"
   description = """"""
   
 [design.background]
@@ -58,8 +67,8 @@ date_format = "2006"
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "curiosity.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "solo.jpg"  # Name of image in `static/img/`.
+  image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true  

@@ -10,23 +10,26 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Space Physics
+role: Software Developer and PhD in Space Physics
 
 # Organizations/Affiliations
 organizations:
-- name: University of Kiel
-  url: "https://www.physik.uni-kiel.de/de/institute/ieap/et/"
+- name: Paradox Cat GmbH, Munich
+  url: "https://paradoxcat.com/en/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-interests:
-- Mars exploration
-- Cosmic rays
-- Heliospheric physics
+#interests:
+#- Mars exploration
+#- Cosmic rays
+#- Heliospheric physics
 
 education:
   courses:
+  - course: PhD in Space Physics
+    institution: University of Kiel
+    year: 2021
   - course: MSc in Physics
     institution: University of Kiel
     year: 2018
@@ -70,12 +73,9 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
-Kiel University. I am part of the scientific team of the 
-[RAD](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) instrument on the *Curiosity* rover on Mars,
-and work on tracking solar storms at Mars using its data.
-I am also working on data analysis and software development for the 
-[Chang'E 4/LND](https://www.physik.uni-kiel.de/en/institutes/departments/extraterrestrial-physics/research/lunar-lander-neutrons-dosimetry-on-change-4) and
-[Solar Orbiter/EPD](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo) instruments developed in our group.
+Since March 2021, I am working as a software developer at [Paradox Cat GmbH](https://paradoxcat.com/en), developing prototypes for the automotive industry using Machine Learning technologies at BMW BetaLabs in Munich.
 
-Besides, I work at [rami.io](https://rami.io/) to build cool apps for Android, iOS and the web.
+My background is in Space Science, in which I got my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
+Kiel University. During my PhD studies, I have been part of the scientific team of the
+[RAD](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) instrument on the *Curiosity* rover on Mars,
+and the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo). You can find links to my scientific publications and presentations on this website.
