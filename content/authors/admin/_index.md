@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Johan von Forstner
+name: Dr. Johan von Forstner
 
 # Username (this should match the folder name)
 authors:
@@ -45,18 +45,21 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: orcid
-  icon_pack: fab
-  link: https://orcid.org/0000-0002-1390-4776
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/johan_vf
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.de/citations?user=nRju2agAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/johan12345
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/dr-johan-von-forstner-536778190/
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-1390-4776
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.de/citations?user=nRju2agAAAAJ
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
