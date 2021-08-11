@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "EVMap"
-summary: "Android app to access the [GoingElectric.de](https://goingelectric.de) electric vehicle charging station directory."
+summary: "Android app to find electric vehicle charging stations."
 authors: []
 tags: []
 categories: []
