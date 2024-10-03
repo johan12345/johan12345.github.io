@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Principal Machine Learning Engineer
+role: AI R&D Architect
 
 # Organizations/Affiliations
 organizations:
@@ -76,7 +76,7 @@ user_groups:
 - Visitors
 ---
 
-Since March 2021, I am working as a Machine Learning Engineer at [Paradox Cat GmbH](https://paradoxcat.com/en), developing prototypes for the automotive industry at BMW BetaLabs in Munich.
+Since March 2021, I am working as a AI R&D Engineer at [Paradox Cat GmbH](https://paradoxcat.com/en) as the lead developer in our department for automotive in-cabin sensing, supporting our customers like BMW in PoC and series development projects.
 
 My background is in Space Science, in which I got my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
 Kiel University. During my PhD studies, I have been part of the scientific team of the
