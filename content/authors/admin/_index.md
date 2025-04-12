@@ -78,7 +78,6 @@ user_groups:
 
 Since March 2021, I am working as an AI R&D Engineer at [Paradox Cat GmbH](https://paradoxcat.com/en) as the lead developer in our department for automotive in-cabin sensing, supporting our customers like BMW in PoC and series development projects.
 
-My background is in Space Science, in which I got my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
-Kiel University. During my PhD studies, I have been part of the scientific team of the
-[RAD](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) instrument on the *Curiosity* rover on Mars,
-and the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo). You can find links to my scientific publications and presentations on this website.
+My background is in Space Science, in which I completed my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
+Kiel University. During my PhD studies, I have been part of the scientific teams of the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo),
+and the [Radiation Assessment Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) instrument on the *Curiosity* Mars rover. You can find links to my scientific publications and presentations on this website.

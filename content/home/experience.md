@@ -18,25 +18,34 @@ date_format = "2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Principal Machine Learning Engineer"
+  title = "AI R&D Architect"
   company = "Paradox Cat GmbH"
   company_url = "https://paradoxcat.com/en/"
   location = "Munich"
-  date_start = "2022-08-01"
+  date_start = "2024-07-01"
   date_end = ""
   description = """"""
 
 [[experience]]
-  title = "Senior Machine Learning Engineer"
+  title = "Principal AI R&D Engineer"
+  company = "Paradox Cat GmbH"
+  company_url = "https://paradoxcat.com/en/"
+  location = "Munich"
+  date_start = "2022-07-01"
+  date_end = "2024-06-30"
+  description = """"""
+
+[[experience]]
+  title = "Senior AI R&D Engineer"
   company = "Paradox Cat GmbH"
   company_url = "https://paradoxcat.com/en/"
   location = "Munich"
   date_start = "2021-03-01"
-  date_end = "2022-07-31"
+  date_end = "2022-06-30"
   description = """"""
 
 [[experience]]
-  title = "Postgraduate researcher, PhD student"
+  title = "Research Associate  / PhD student"
   company = "University of Kiel, Extraterrestrial Physics Department"
   company_url = "https://www.physik.uni-kiel.de/de/institute/ieap/et/"
   location = "Kiel"
@@ -45,7 +54,7 @@ date_format = "2006"
   description = """"""
 
 [[experience]]
-  title = "Undergraduate researcher"
+  title = "Student Research Assistant"
   company = "University of Kiel, Extraterrestrial Physics Department"
   company_url = "https://www.physik.uni-kiel.de/de/institute/ieap/et/"
   location = "Kiel"
