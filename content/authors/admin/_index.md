@@ -14,7 +14,7 @@ role: AI R&D Architect
 
 # Organizations/Affiliations
 organizations:
-- name: Paradox Cat GmbH, Munich
+- name: PARADOX CAT GmbH, Munich
   url: "https://paradoxcat.com/en/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -48,6 +48,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/johan_vf
+- icon: mastodon
+  icon_pack: fab
+  link: https://chaos.social/@johan
 - icon: github
   icon_pack: fab
   link: https://github.com/johan12345
@@ -76,8 +79,10 @@ user_groups:
 - Visitors
 ---
 
-Since March 2021, I am working as an AI R&D Engineer at [Paradox Cat GmbH](https://paradoxcat.com/en) as the lead developer in our department for automotive in-cabin sensing, supporting our customers like BMW in PoC and series development projects.
+As an AI R&D Engineer at [PARADOX CAT](https://paradoxcat.com/en), I lead a small team of developers working on innovative AI projects for automotive in-cabin sensing and human-machine interaction.
+We implement Computer Vision and radar algorithms to support our customers like BMW in PoC and series development projects.
 
-My background is in Space Science, in which I completed my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
-Kiel University. During my PhD studies, I have been part of the scientific teams of the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo),
-and the [Radiation Assessment Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) instrument on the *Curiosity* Mars rover. You can find links to my scientific publications and presentations on this website.
+My background is in Space Physics, in which I completed my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
+the University of Kiel in 2021.
+During my studies, I have been part of the scientific teams of the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo),
+and the [Radiation Assessment Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) on Mars Science Laboratory. You can find links to my scientific publications and presentations on this website.

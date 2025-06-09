@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Web Opac App"
-summary: "Android App to access library catalogs"
+title: "car-templates-host"
+summary: "Android Automotive OS template host with map implementation."
 authors: []
 tags: []
 categories: []
-date: 2021-03-04T21:02:45+01:00
+date: 2025-06-09T00:00:00+01:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/opacapp/opacclient"
+external_link: "https://github.com/johan12345/car-templates-host"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
