@@ -137,15 +137,15 @@ circuits. Now, I just needed a single contact, so I removed the extra wires from
 
 Since I had now tested all the basic functionalities on their own, I started to integrate all the hardware into the housing.
 I removed the capacitor and coil on the sides, which were no longer needed, to make room for the
-Pi and the L298N. They were then attaced to the existing screw holes in the baseplate with 3D-printed mounts.
+Pi and the L298N. They were then attached to the existing screw holes in the baseplate with 3D-printed mounts.
 Then I connected everything with new wiring, using the original terminal board to keep it organized.
 I also 3D-printed a black insert that holds a 12 V power plug for the external power supply, replacing one of the
 two rubber gaskets at the top of the phone:
 <figure>
 <iframe class="d-block m-auto" width="315" height="560" src="https://www.youtube.com/embed/BUNdtgcHGFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
-In parallel, I implemented the software functionality. A Python script implements the basic state machine for the phone
-functionality, and integrates with the GPIO pins for hook, dial and ringer. In the background, it runs the
+In parallel, I implemented the software functionality. A Python script implements the basic state machine for the phone,
+and integrates with the GPIO pins for hook, dial and ringer. In the background, it runs the
 <code>linphone</code> SIP client to implement the actual VoIP calls. The USB audio adapter, which is wired
 up to the handset, is configured as the default audio input and output.
 
