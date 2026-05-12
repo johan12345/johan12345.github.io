@@ -72,7 +72,7 @@ and record audio from the microphone. The quality was surprisingly decent!&lt;/p
 &lt;h3 id="the-rotary-dial">The rotary dial&lt;/h3>
 &lt;p>The rotary dial has another two pairs of wires leading to the terminal board. In this case, they are connected to two
 different switches in the dial mechanism. One of them signals when the dial is in use, while the other produces a number
-of pulses depending on how far the dial has been turned, where the number of pulses twice the dialed number.&lt;/p>
+of pulses depending on how far the dial has been turned, where the number of pulses corresponds to the dialed number times two.&lt;/p>
 &lt;p>After connecting the two switches to GPIO pins of the Pi Zero and building a simple Python script to decode the
 signal, I managed to make the dial work:&lt;/p>
 &lt;figure>
