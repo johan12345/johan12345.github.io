@@ -1,1 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Johan von Forstner</title><link>https://johan.vonforst.net/post/</link><atom:link href="https://johan.vonforst.net/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>Posts</title><link>https://johan.vonforst.net/post/</link></image><item><title>Gatti pazzi a Milano — PARADOX CAT at #ECCV2024 🍕</title><link>https://johan.vonforst.net/post/20241017_pdx_iccv/</link><pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20241017_pdx_iccv/</guid><description/></item><item><title>PARADOX CAT at #ICCV2023 🥐</title><link>https://johan.vonforst.net/post/20231214_pdx_iccv/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20231214_pdx_iccv/</guid><description/></item><item><title>Machine Learning systems for HMI interaction — insights from our session at Auto.AI Europe 2022</title><link>https://johan.vonforst.net/post/20220929_pdx_autoai/</link><pubDate>Thu, 29 Sep 2022 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20220929_pdx_autoai/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Johan von Forstner</title><link>https://johan.vonforst.net/post/</link><atom:link href="https://johan.vonforst.net/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2026 00:00:00 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>Posts</title><link>https://johan.vonforst.net/post/</link></image><item><title>Bringing an old rotary phone back to life</title><link>https://johan.vonforst.net/post/20260510_rotary_phone/</link><pubDate>Wed, 13 May 2026 00:00:00 +0200</pubDate><guid>https://johan.vonforst.net/post/20260510_rotary_phone/</guid><description>&lt;p>My granduncle was an avid collector of old landline phones. After he sadly passed away last year, his phone collection
+was passed on to family members. I inherited one of these phones, and had the idea to bring it back to life
+as a usable landline phone for my home.&lt;/p>
+&lt;p>&lt;figure class="figure w-50">
+&lt;a data-fancybox="" href="https://johan.vonforst.net/post/20260510_rotary_phone/phone-01_hu4f31a70ebd110c528e632a59c1afd59b_882572_2000x2000_fit_q90_lanczos.jpg" >
+&lt;img data-src="https://johan.vonforst.net/post/20260510_rotary_phone/phone-01_hu4f31a70ebd110c528e632a59c1afd59b_882572_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="A photograph of a W49 rotary phone" width="2048" height="2048">
+&lt;/a>
+&lt;/figure>&lt;figure class="figure w-50">
+&lt;a data-fancybox="" href="https://johan.vonforst.net/post/20260510_rotary_phone/phone-02_hu4f31a70ebd110c528e632a59c1afd59b_884743_2000x2000_fit_q90_lanczos.jpg" >
+&lt;img data-src="https://johan.vonforst.net/post/20260510_rotary_phone/phone-02_hu4f31a70ebd110c528e632a59c1afd59b_884743_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="A photograph of a W49 rotary phone" width="2048" height="2048">
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>The phone I have is a
+&lt;a href="https://de.wikipedia.org/wiki/W_49" target="_blank" rel="noopener">W49&lt;/a>, a model produced from 1949 to 1967 by
+&lt;a href="https://de.wikipedia.org/wiki/Hagenuk" target="_blank" rel="noopener">Hagenuk&lt;/a> in Kiel, Germany, by order of the Federal Post Office.
+This particular unit, according to the print on the backplate, was built in 1961.
+And it seems to actually have been used in the Kiel area, because in addition to the emergency numbers for police and
+fire department, the sticker on the rotary dial lists the former phone number of the local newspaper
+&lt;em>Kieler Nachrichten (KN)&lt;/em>.&lt;/p>
+&lt;p>According to what I found online, the W49 is pretty much identical to the classic
+&lt;a href="https://en.wikipedia.org/wiki/W48_%28telephone%29" target="_blank" rel="noopener">W48&lt;/a> developed by
+Siemens &amp;amp; Halske.
+The main special feature of the W49 is that its housing can be converted between desktop and wall-mounted modes by
+unscrewing the hook and the rotary dial and rotating each of them by 180°. A smart design!&lt;/p>
+&lt;p>Using rotary phones like this one on a modern German landline is not quite straightforward. They use an obsolete
+signaling system (pulse dialing / &lt;em>Impulswahlverfahren, IWV&lt;/em>), which most modern equipment no longer supports.
+Also, the mechanical bell of the W49 requires a high current to operate.
+I could have bought an adapter to make it work, but I wanted to replace
+the phone&amp;rsquo;s inner workings with modern electronics, powered by a tiny Linux computer, the
+&lt;a href="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/" target="_blank" rel="noopener">Raspberry Pi Zero 2W&lt;/a>.
+The ability to run custom software on the Pi makes the phone much more unique and flexible:
+The Pi can connect wirelessly to my router to serve as a VoIP phone using the SIP protocol, and in the future I
+could still implement other features like Bluetooth tethering to a mobile phone or adding notification sounds and
+voice assistant / smart speaker functionality.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+I&amp;rsquo;m a physicist and software developer, not an electrical engineer, so while I have touched electronics before,
+I&amp;rsquo;m by no means an expert. Please take my advice at your own risk.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="opening-it-up">Opening it up&lt;/h2>
+&lt;p>So, this is what I saw when I opened up the housing:&lt;/p>
+&lt;figure class="figure w-50">
+&lt;a data-fancybox="" href="https://johan.vonforst.net/post/20260510_rotary_phone/phone-03_hubde3ae06c197bc9c01edb853b4c72cb9_961376_2000x2000_fit_q90_lanczos.jpg" >
+&lt;img data-src="https://johan.vonforst.net/post/20260510_rotary_phone/phone-03_hubde3ae06c197bc9c01edb853b4c72cb9_961376_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="Interior of a W49 rotary phone" width="2048" height="2048">
+&lt;/a>
+&lt;/figure>
+&lt;p>Two large bells for the ringer at the bottom, a terminal board for connecting various cables, and a few more electrical
+components (capacitor and coils).
+The original landline voltage included both DC power and an AC ringing signal (60 V at 25 Hz). The capacitor
+filtered out the DC component, so that when the AC ringer signal came in, it could drive the magnetic coil that
+makes the clapper ring the bells.&lt;/p>
+&lt;p>Just like the high-quality plastic housing, everything looked quite solid and well-made on the inside as well.
+I was especially impressed by the neat cable management (hand-tied pieces of yarn as cable ties).
+The massive 1 µF capacitor with metal housing also seems a bit bigger than what one would see in modern devices.
+One of the black rubber gaskets at the top would have been removed to make room to insert a telephone line cable.&lt;/p>
+&lt;h2 id="first-experiments">First experiments&lt;/h2>
+&lt;p>To check if my idea was feasible, I first tested how I could operate the individual components of the phone:&lt;/p>
+&lt;h3 id="the-handset">The handset&lt;/h3>
+&lt;p>The handset contains the speaker and the microphone, and their four wires lead to the four leftmost connectors
+on the terminal board.
+To check if speaker and microphone could easily be driven with modern audio components, I took a spare cable with a TRRS
+audio jack, cut off the other end and hooked up the conductors to the corresponding wires on the terminal board.
+Once I had figured out the correct pin assignment, I could already play music from my phone through the earpiece
+and record audio from the microphone. The quality was surprisingly decent!&lt;/p>
+&lt;figure>
+&lt;iframe class="d-block m-auto" width="315" height="560" src="https://www.youtube.com/embed/XImiNlGDZwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;/figure>
+&lt;p>As the Pi Zero doesn&amp;rsquo;t have an integrated sound card, I figured the easiest solution would be to get a cheap
+&lt;a href="https://www.reichelt.de/de/de/shop/produkt/audio_adapter_usb_type-c_-_klinkenbuchse_3_5mm-409743" target="_blank" rel="noopener">USB-C to TRRS adapter&lt;/a> and a
+&lt;a href="https://www.reichelt.de/de/de/shop/produkt/raspberry_pi_-_adapter_usb-c_f_auf_microusb_m_weiss-395530" target="_blank" rel="noopener">Micro-USB to USB-C adapter&lt;/a>.&lt;/p>
+&lt;h3 id="the-rotary-dial">The rotary dial&lt;/h3>
+&lt;p>The rotary dial has another two pairs of wires leading to the terminal board. In this case, they are connected to two
+different switches in the dial mechanism. One of them signals when the dial is in use, while the other produces a number
+of pulses depending on how far the dial has been turned, where the number of pulses twice the dialed number.&lt;/p>
+&lt;p>After connecting the two switches to GPIO pins of the Pi Zero and building a simple Python script to decode the
+signal, I managed to make the dial work:&lt;/p>
+&lt;figure>
+&lt;iframe class="d-block m-auto" width="315" height="560" src="https://www.youtube.com/embed/kN0gCWmuvJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;/figure>
+&lt;p>A little bit of tweaking was necessary here to get the debouncing thresholds right, so that any additional stray pulses due
+to bouncing of the physical switches inside the dial would be rejected while still catching all of the actual pulses.&lt;/p>
+&lt;h3 id="the-ringer">The ringer&lt;/h3>
+&lt;p>The ringer requires a significant voltage and current to operate — after all, the landline ringer signal used to be 60 V AC.
+So I knew the 3.3 V GPIO pins from the Pi wouldn&amp;rsquo;t cut it on their own. However, I was able to make the clapper move
+using a 9 V battery connected to the coil, so this gave me hope that the voltage wouldn&amp;rsquo;t need to be quite as high to make it
+ring. It would still have to be an AC voltage though — not necessarily a sine wave, but at least somehow
+alternating between positive and negative polarity—otherwise, the magnetic coil would make the clapper only move in one
+direction and fail to hit the other bell.&lt;/p>
+&lt;p>I researched online for a compact and low-cost solution to achieve this, and finally ended up with a
+&lt;a href="https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_motorsteuerung_2-fach_l298n-282644" target="_blank" rel="noopener">L298N&lt;/a>
+motor driver board — a chip that can take a 12 V DC input and drive up to two outputs with 12 V in either direction
+controlled by GPIO signals supplied to the input pins. It even has a 5 V DC output that I can use to power the Pi, so I
+could power everything with a single power supply without a need for a separate DC-DC converter.&lt;/p>
+&lt;p>By adjusting the timing with which I applied GPIO signals to the L298N&amp;rsquo;s inputs, I was able to get a pretty
+satisfying ringing sound:&lt;/p>
+&lt;figure>
+&lt;iframe class="d-block m-auto" width="315" height="560" src="https://www.youtube.com/embed/qHRo4Fqqc_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;/figure>
+&lt;p>With different timings, I could even create different variations of the ringtone, such as longer and shorter rings, or
+even a slower &amp;ldquo;ding-dong&amp;rdquo;.&lt;/p>
+&lt;h3 id="the-hook-switch">The hook switch&lt;/h3>
+&lt;p>The hook switch was pretty easy to implement, it&amp;rsquo;s just another GPIO contact that opens and closes when the handset gets
+picked up or put back onto the hook. The switch contacts just needed some cleaning so that they would work reliably again.&lt;/p>
+&lt;p>On the original phone, the hook switch was attached to multiple switch contacts that were connected to different
+circuits. Now, I just needed a single contact, so I removed the extra wires from the other ones.&lt;/p>
+&lt;h2 id="putting-it-all-together">Putting it all together&lt;/h2>
+&lt;p>Since I had now tested all the basic functionalities on their own, I started to integrate all the hardware into the housing.
+I removed the capacitor and coil on the sides, which were no longer needed, to make room for the
+Pi and the L298N. They were then attaced to the existing screw holes in the baseplate with 3D-printed mounts.
+Then I connected everything with new wiring, using the original terminal board to keep it organized.
+I also 3D-printed a black insert that holds a 12 V power plug for the external power supply, replacing one of the
+two rubber gaskets at the top of the phone:&lt;/p>
+&lt;figure>
+&lt;iframe class="d-block m-auto" width="315" height="560" src="https://www.youtube.com/embed/BUNdtgcHGFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;/figure>
+In parallel, I implemented the software functionality. A Python script implements the basic state machine for the phone
+functionality, and integrates with the GPIO pins for hook, dial and ringer. In the background, it runs the
+&lt;code>linphone&lt;/code> SIP client to implement the actual VoIP calls. The USB audio adapter, which is wired
+up to the handset, is configured as the default audio input and output.
+&lt;h2 id="the-final-result">The final result&lt;/h2>
+&lt;p>So there I had it: A working classic landline phone, ready to take phone calls in style 😎.
+And also, a platform for future experiments with the software to implement additional functionalities.&lt;/p>
+&lt;p>But most importantly: I had a lot of fun tinkering with the hardware, refreshing my electronics skills, learning
+more about the inner workings of rotary phones, and bringing old and new together.&lt;/p>
+&lt;h2 id="related-content">Related content&lt;/h2>
+&lt;p>Some related videos and blog posts that I found useful in the process:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=-wHHxkT6DJc" target="_blank" rel="noopener">altes W48 Telefon, was ist das ? Erklärt und reingeschaut !&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=Dqf6HZAWJeA" target="_blank" rel="noopener">altes W48 Telefon - Füße tauschen, Wecker einstellen, Nummernschalter reinigen&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://medienwunder.wordpress.com/2015/06/14/rarophopl-allip-sip-voip-internet-radio-und-waehlscheiben-telefon-mit-impulswahl-raspberry-pi-fritzbox-python-linphone/" target="_blank" rel="noopener">AllIP (Sip/VoIP) Internet Radio und Wählscheibentelefon mit Impulswahl (Raspberry Pi, FritzBox, python, linphone, …)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Gatti pazzi a Milano — PARADOX CAT at #ECCV2024 🍕</title><link>https://johan.vonforst.net/post/20241017_pdx_iccv/</link><pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20241017_pdx_iccv/</guid><description/></item><item><title>PARADOX CAT at #ICCV2023 🥐</title><link>https://johan.vonforst.net/post/20231214_pdx_iccv/</link><pubDate>Thu, 14 Dec 2023 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20231214_pdx_iccv/</guid><description/></item><item><title>Machine Learning systems for HMI interaction — insights from our session at Auto.AI Europe 2022</title><link>https://johan.vonforst.net/post/20220929_pdx_autoai/</link><pubDate>Thu, 29 Sep 2022 00:00:00 +0100</pubDate><guid>https://johan.vonforst.net/post/20220929_pdx_autoai/</guid><description/></item></channel></rss>
