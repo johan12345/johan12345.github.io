@@ -9,3 +9,7 @@
 .powered-by {
   display: none;
 }
+
+.article-style p + .figure {
+  margin-top: 1rem;
+}

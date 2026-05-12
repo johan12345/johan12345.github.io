@@ -6,3 +6,5 @@ resources/
 public/
 
 content/publication/*/
+
+.hugo_build.lock
