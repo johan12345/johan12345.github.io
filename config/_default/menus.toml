@@ -9,19 +9,24 @@
   weight = 10
 
 [[main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 20
+
+[[main]]
   name = "Open Source"
   url = "#projects"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Presentations"
   url = "#talks"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Contact"
