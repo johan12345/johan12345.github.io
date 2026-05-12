@@ -90,7 +90,7 @@ As the Pi Zero doesn't have an integrated sound card, I figured the easiest solu
 ### The rotary dial
 The rotary dial has another two pairs of wires leading to the terminal board. In this case, they are connected to two
 different switches in the dial mechanism. One of them signals when the dial is in use, while the other produces a number
-of pulses depending on how far the dial has been turned, where the number of pulses twice the dialed number.
+of pulses depending on how far the dial has been turned, where the number of pulses corresponds to the dialed number times two.
 
 After connecting the two switches to GPIO pins of the Pi Zero and building a simple Python script to decode the
 signal, I managed to make the dial work:
