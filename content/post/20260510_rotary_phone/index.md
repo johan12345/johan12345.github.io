@@ -104,8 +104,8 @@ to bouncing of the physical switches inside the dial would be rejected while sti
 
 ### The ringer
 The ringer requires a significant voltage and current to operate — after all, the landline ringer signal used to be 60 V AC.
-So I knew the 3.3 V GPIO pins from the Pi wouldn't cut it on their own. However, I was able to make the clapper move
-using a 9 V battery connected to the coil, so this gave me hope that the voltage wouldn't need to be quite as high to make it
+So I knew the 3.3 V GPIO pins from the Pi wouldn't cut it on their own. However, I was able to make the clapper move a little
+using a 9 V battery connected to the magnetic coil, so this gave me hope that the voltage wouldn't need to be quite as high to make it
 ring. It would still have to be an AC voltage though — not necessarily a sine wave, but at least somehow
 alternating between positive and negative polarity—otherwise, the magnetic coil would make the clapper only move in one
 direction and fail to hit the other bell.
