@@ -41,8 +41,8 @@ different switches in the dial mechanism. One of them signals when the dial is i
 of pulses depending on how far the dial has been turned, where the number of pulses corresponds to the dialed number times two.</p><p>After connecting the two switches to GPIO pins of the Pi Zero and building a simple Python script to decode the
 signal, I managed to make the dial work:</p><figure><iframe class="d-block m-auto" width=315 height=560 src=https://www.youtube.com/embed/kN0gCWmuvJs title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy=strict-origin-when-cross-origin allowfullscreen></iframe></figure><p>A little bit of tweaking was necessary here to get the debouncing thresholds right, so that any additional stray pulses due
 to bouncing of the physical switches inside the dial would be rejected while still catching all of the actual pulses.</p><h3 id=the-ringer>The ringer</h3><p>The ringer requires a significant voltage and current to operate — after all, the landline ringer signal used to be 60 V AC.
-So I knew the 3.3 V GPIO pins from the Pi wouldn&rsquo;t cut it on their own. However, I was able to make the clapper move
-using a 9 V battery connected to the coil, so this gave me hope that the voltage wouldn&rsquo;t need to be quite as high to make it
+So I knew the 3.3 V GPIO pins from the Pi wouldn&rsquo;t cut it on their own. However, I was able to make the clapper move a little
+using a 9 V battery connected to the magnetic coil, so this gave me hope that the voltage wouldn&rsquo;t need to be quite as high to make it
 ring. It would still have to be an AC voltage though — not necessarily a sine wave, but at least somehow
 alternating between positive and negative polarity—otherwise, the magnetic coil would make the clapper only move in one
 direction and fail to hit the other bell.</p><p>I researched online for a compact and low-cost solution to achieve this, and finally ended up with a
