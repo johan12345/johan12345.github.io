@@ -50,8 +50,8 @@ direction and fail to hit the other bell.</p><p>I researched online for a compac
 motor driver board — a chip that can take a 12 V DC input and drive up to two outputs with 12 V in either direction
 controlled by GPIO signals supplied to the input pins. It even has a 5 V DC output that I can use to power the Pi, so I
 could power everything with a single power supply without a need for a separate DC-DC converter.</p><div class="alert alert-note"><div><strong>Update:</strong> While the 5 V DC output of the L298N works, it can be unstable when the Pi pulls too much current, so I
-had to limit the Pi&rsquo;s CPU clock to reduce the power draw under high load (e.g., when booting up or installing packages).
-Also, because it uses a <a href=https://en.wikipedia.org/wiki/Linear_regulator>linear voltage regulator</a> rather than
+had to limit the Pi&rsquo;s CPU clock speed to reduce the power draw under high load (e.g., when booting up or installing
+packages). Also, because it uses a <a href=https://en.wikipedia.org/wiki/Linear_regulator>linear voltage regulator</a> rather than
 a <a href=https://en.wikipedia.org/wiki/Buck_converter>switching converter</a>, it is less efficient. So later, I
 decided to buy a proper <a href=https://de.aliexpress.com/item/1005003697090505.html>5 V 3 A buck converter</a>
 to power the 5 V inputs of both the Pi and the L298N, and pulled the jumper on the L298N to disable its internal
