@@ -116,6 +116,16 @@ motor driver board — a chip that can take a 12 V DC input and drive up t
 controlled by GPIO signals supplied to the input pins. It even has a 5 V DC output that I can use to power the Pi, so I
 could power everything with a single power supply without a need for a separate DC-DC converter.
 
+{{% alert note %}}
+**Update:** While the 5 V DC output of the L298N works, it can be unstable when the Pi pulls too much current, so I
+had to limit the Pi's CPU clock speed to reduce the power draw under high load (e.g., when booting up or installing
+packages). Also, because it uses a [linear voltage regulator](https://en.wikipedia.org/wiki/Linear_regulator) rather than
+a [switching converter](https://en.wikipedia.org/wiki/Buck_converter), it is less efficient. So later, I
+decided to buy a proper [5 V 3 A buck converter](https://de.aliexpress.com/item/1005003697090505.html)
+to power the 5 V inputs of both the Pi and the L298N, and pulled the jumper on the L298N to disable its internal
+voltage regulator. This way, the Pi runs stable even under load, and the idle power consumption is minimized.
+{{% /alert %}}
+
 By adjusting the timing with which I applied GPIO signals to the L298N's inputs, I was able to get a pretty
 satisfying ringing sound:
 <figure>
