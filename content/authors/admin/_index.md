@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: AI R&D Architect
+role: Principal ML Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: PARADOX CAT GmbH, Munich
-  url: "https://paradoxcat.com/en/"
+- name: NEC OncoImmunity, Oslo
+  url: "https://www.nec-bio.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -79,10 +79,28 @@ user_groups:
 - Visitors
 ---
 
-As an AI R&D Engineer at [PARADOX CAT](https://paradoxcat.com/en), I lead a small team of developers working on innovative AI projects for automotive in-cabin sensing and human-machine interaction.
-We implement Computer Vision and radar algorithms to support our customers like BMW in PoC and series development projects.
+As a **Machine Learning Engineer with a Physics background**, I am curious about the intersection of cutting-edge
+research, advanced algorithms, and real-world data and applications. I am particularly interested in the many ways
+machine learning can be applied to real-world problems, from perception algorithms processing complex sensor data to
+solving challenging problems in scientific research.
+I enjoy tackling the engineering challenges of translating research into robust, practical solutions that
+operate reliably in complex environments.
 
-My background is in Space Physics, in which I completed my PhD in the [Extraterrestrial Physics Group](https://www.physik.uni-kiel.de/de/institute/ieap/et) at
-the University of Kiel in 2021.
-During my studies, I have been part of the scientific teams of the [Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo),
-and the [Radiation Assessment Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) on Mars Science Laboratory. You can find links to my scientific publications and presentations on this website.
+This interest in applying ML to challenging real-world problems has led me to my current role at
+**[NEC OncoImmunity](https://www.nec-bio.com/)** in Oslo, where I support the development of ML models that are used
+to design **novel vaccines and therapies** against **cancer and infectious diseases**.
+
+My previous experience spans **software engineering, machine learning, data science and data engineering** across
+several fields:
+
+As tech lead in the AI team at [PARADOX CAT](https://paradoxcat.com/en), I worked for 5½ years designing and developing
+algorithms for **automotive in-cabin sensing** for high-profile customers such as BMW.
+Projects combined **computer vision** and **radar** technologies and spanned applications such as driver monitoring,
+occupant detection and classification, or hand gesture recognition, often with real-time or low-power constraints.
+Some of the algorithms I built are now deployed in production cars.
+
+During my PhD in **Space Physics** at the University of Kiel, I was part of the scientific teams of the
+[Solar Orbiter Energetic Particle Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/solo) and the [Radiation Assessment Detector](https://www.physik.uni-kiel.de/de/institute/ieap/ag-wimmer/msl) onboard NASA's Mars
+Science Laboratory mission. My research focused on **solar eruptions (coronal mass ejections)** and cosmic rays. 
+I also contributed to the development of data pipelines and analysis tools for these and other space missions.
+You can find links to my scientific publications and presentations further down on this website.
